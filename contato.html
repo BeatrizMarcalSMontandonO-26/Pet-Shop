@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fale Conosco - Três Patas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Três Patas - Pet Shop</h1>
+    <p>Tudo para cuidar do seu pet com todo carinho!</p>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="produtos.html">Produtos</a>
+        <a href="contato.html">Fale Conosco</a>
+    </nav>
+</header>
+
+<main>
+    <h2>FALE CONOSCO</h2>
+    <p>Preencha o formulário para entrar em contato.</p>
+
+    <form>
+        <table>
+
+            <tr>
+    <td><label for="nome">Nome:</label></td>
+    <td>
+        <input type="text" id="nome" name="nome"
+               placeholder="Digite seu nome" required>
+    </td>
+</tr>
+
+<tr>
+    <td><label for="email">E-mail:</label></td>
+    <td>
+        <input type="email" id="email" name="email"
+               placeholder="exemplo@email.com" required>
+    </td>
+</tr>
+<tr>
+    <td><label for="telefone">Telefone:</label></td>
+    <td>
+        <input type="tel" id="telefone" name="telefone"
+               placeholder="(45) 99999-9999"
+               maxlength="15" required>
+    </td>
+</tr>
+
+<tr>
+    <td><label for="data">Data desejada:</label></td>
+    <td>
+        <input type="date" id="data" name="data" required>
+    </td>
+</tr>
+<tr>
+    <td><label for="assunto">Assunto:</label></td>
+    <td>
+        <select id="assunto" name="assunto" required>
+            <option value="">Selecione uma opção</option>
+            <option value="produtos">Informações sobre produtos</option>
+            <option value="banho">Banho e higiene</option>
+            <option value="pedido">Acompanhar pedido</option>
+            <option value="outro">Outro assunto</option>
+        </select>
+    </td>
+</tr>
+<tr>
+    <td><label for="mensagem">Mensagem:</label></td>
+    <td>
+        <textarea id="mensagem" name="mensagem"
+                  rows="5" cols="30"
+                  placeholder="Digite sua mensagem"
+                  minlength="10" required></textarea>
+    </td>
+</tr>
+<tr>
+    <td>Forma de contato:</td>
+    <td>
+        <input type="radio" id="contato-email"
+               name="forma-contato" value="email" required>
+        <label for="contato-email">E-mail</label>
+
+        <input type="radio" id="contato-telefone"
+               name="forma-contato" value="telefone">
+        <label for="contato-telefone">Telefone</label>
+    </td>
+</tr>
+
+<tr>
+    <td></td>
+    <td>
+        <input type="checkbox" id="novidades" name="novidades">
+        <label for="novidades">Desejo receber novidades</label>
+    </td>
+</tr>
+
+<tr>
+    <td></td>
+    <td>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </td>
+</tr>
+
+        </table>
+    </form>
+</main>
+
+<footer>
+    <p>Três Patas - Pet Shop</p>
+</footer>
+
+</body>
+</html>

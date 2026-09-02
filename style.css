@@ -1,0 +1,126 @@
+/* Estilo geral da página */
+body {
+font-family: Arial, sans-serif;
+text-align: center;
+}
+
+/* Área que contém as duas partes */
+.conteudo {
+display: flex;
+justify-content: center;
+gap: 40px;
+margin-top: 30px;
+}
+
+/* Área do texto e da imagem */
+.informações {
+width: 600px;
+margin: 0 auto;
+}
+
+/* Tamanho da imagem */
+.informações img {
+width: 350px;
+height: 230px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+/* Área do vídeo */
+.video {
+margin-top: 50px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+/* Tamanho do vídeo */
+.video video {
+width: 800px;
+height: 400px;
+object-fit: cover;
+border-radius: 10px;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.produto {
+    width: 250px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.produto img {
+    width: 220px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+p, li {
+    font-size: 18px;
+}
+
+/* Menu de navegação */
+nav {
+    margin: 20px;
+}
+
+nav a {
+    margin: 0 10px;
+}
+
+/* Tabela do formulário */
+form table {
+    margin: 20px auto;
+    text-align: left;
+    border-spacing: 10px;
+}
+
+/* Campos do formulário */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+select,
+textarea {
+    width: 300px;
+    padding: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Botões */
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 40px;
+}
